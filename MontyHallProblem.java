@@ -9,7 +9,7 @@ public class MontyHallProblem
 		int stayingWins = 0;
 		int switchingWins = 0;
 		
-		int timesRan = 10000000;
+		int timesRan = 1000000000;
 		//int count = 0;
 		for(int i = 0; i < timesRan; i++)
 		{
@@ -25,7 +25,7 @@ public class MontyHallProblem
 			stayingWins += doors[choice];
 			switchingWins += doors[3 - choice - revealed];
 		}
-		System.out.println("Literally ran 10 million times");
+		System.out.println("Literally ran one billion times");
 		System.out.println("Switching: " + (switchingWins*100f/timesRan) + "%");
 		System.out.println("Staying: " + (stayingWins*100f/timesRan) + "%");
 	}
