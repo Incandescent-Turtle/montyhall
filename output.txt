@@ -1,3 +1,0 @@
-Literally ran 10 million times
-Switching: 66.6%
-Staying: 33.3%
